@@ -1,7 +1,9 @@
 # TeachMeCLikeIm5
 *You are welcome to contribute to this repo. See the [**CONTRIBUTING.md**](./CONTRIBUTING.md) for more info*
 
-![TeachMeCLikeIm5]()
+<img src="https://inspirezone.tech/wp-content/uploads/2021/10/Accepting-Contributions-for-Hacktoberfest-2021.png" width="300">
+
+![TeachMeCLikeIm5](https://inspirezone.tech/wp-content/uploads/2021/10/TeachMeCLikeIm5_Banner.png)
 
 ## 📜 About this repo 📜
 
@@ -17,4 +19,4 @@ Each file contains:
 |-------------------------------------------|----------------------------------------------------------------| 
 | **Getting started**                       |
 |Your first C program                       | [hello-world.c](getting-started/hello-world.c)                 |
-|Commenting                                 | [commenting.c](getting-started/commenting.c)                   |
+|Using comments in C code                   | [commenting.c](getting-started/commenting.c)                   |
