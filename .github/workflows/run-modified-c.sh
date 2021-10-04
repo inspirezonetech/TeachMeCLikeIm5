@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "run-sh: Inside run-modified-python.sh"
+echo "run-sh: Inside run-modified-c.sh"
 
 #read json file and store in variable
 a=$(cat /home/runner/files_modified.json)
@@ -21,5 +21,5 @@ if [[ $b == *".c"* ]]; then
     echo "run-sh: This is a .c file, executing"
     gcc $b && ./a.out
 else
-    echo "run-sh: File modified is not a python file! Will not execute"
+    echo "run-sh: File modified is not a C file! Will not execute"
 fi
