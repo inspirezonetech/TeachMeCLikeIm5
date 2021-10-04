@@ -1,0 +1,29 @@
+name: execute-modified-c-file
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  job-execute-python:
+    runs-on: ubuntu-latest
+  
+    steps:
+  
+    # checkout repo
+    - uses: actions/checkout@v2
+    
+    #use action to get file that changed
+    - uses: lots0logs/gh-action-get-changed-files@2.1.4
+      with:
+       token: ${{ secrets.GITHUB_TOKEN }}
+
+    # test if modified file will run
+    - name: Execute file!
+      run: |
+        echo "job: running script to execute modified file:"
+        chmod +x ./.github/workflows/run-modified-c.sh
+        ./.github/workflows/run-modified-c.sh
+        echo "job: Done"
