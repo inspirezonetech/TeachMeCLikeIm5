@@ -16,7 +16,7 @@ b=$(echo "$b" | cut -d ']' -f 2)
 
 echo "run-sh: After parsing, file to execute: $b"
 
-#check if this is a .py file
+#check if this is a .c file
 if [[ $b == *".c"* ]]; then
     echo "run-sh: This is a .c file, executing"
     gcc $b && ./a.out
