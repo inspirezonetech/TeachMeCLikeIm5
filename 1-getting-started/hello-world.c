@@ -13,7 +13,6 @@ int main()
     // The print function is used to output to the console
     printf("hello world \n");
 }
-
 /*
 -------------------------------------------------------------------------------------
  Challenge: Edit the code above to print "hello universe!" to console
