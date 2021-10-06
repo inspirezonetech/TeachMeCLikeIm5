@@ -18,5 +18,5 @@ Each file contains:
 | Tutorial                                  | Link                                                           | 
 |-------------------------------------------|----------------------------------------------------------------| 
 | **Getting started**                       |
-|Your first C program                       | [hello-world.c](getting-started/hello-world.c)                 |
-|Using comments in C code                   | [commenting.c](getting-started/commenting.c)                   |
+|Your first C program                       | [hello-world.c](1-getting-started/hello-world.c)               |
+|Using comments in C code                   | [commenting.c](1-getting-started/commenting.c)                 |
