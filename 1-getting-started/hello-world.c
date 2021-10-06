@@ -8,7 +8,7 @@
 #include <stdio.h>
 
 // The function 'main' is the first entry point for the program
-void main(void)
+int main()
 {
     // The print function is used to output to the console
     printf("hello world \n");
