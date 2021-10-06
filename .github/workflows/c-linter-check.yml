@@ -28,6 +28,6 @@ jobs:
         
     # run linter on files
     - name: Run Lint with cpplint!
-      run: cpplint --filter=-legal/copyright,-whitespace/line_length,-whitespace/braces --recursive */*
+      run: cpplint --quiet --filter=-legal/copyright,-whitespace/line_length,-whitespace/braces --recursive */*
         
     
