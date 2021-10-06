@@ -38,19 +38,33 @@ Go to the [issues](../../issues) page and either:
 - All folders and files should be named using lower cases with words separated by '-' e.g. *for-loops.c*
 - Please use the following template for each tutorial:
 ```
-/*
--------------------------------------------------------------------------------------
+/* 
+------------------------------------------------------------------------------------
  Tutorial: brief description of tutorial content
--------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
 */
 
-/* Code here explaining concept with comments to guide */
-
+// Code here explaining concept with comments to guide
+int main()
+{
+}
 /*
--------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
  Challenge: list challenges to be completed here. minimum of one challenge per tutorial
--------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
 */
+
+```
+
+## Use [cpplint]((https://github.com/cpplint/cpplint)) linting to ensure format of code is consistent with repo
+
+Install cpplint:
+```
+pip install cpplint
+```
+Then run a check against the file using the following options:
+```
+ cpplint --filter=-legal/copyright,-whitespace/line_length,-whitespace/braces filename.c
 ```
 
 ## How to submit your code to this repository - step by step guide
