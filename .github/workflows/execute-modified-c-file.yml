@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  job-execute-python:
+  job-execute-c:
     runs-on: ubuntu-latest
   
     steps:
