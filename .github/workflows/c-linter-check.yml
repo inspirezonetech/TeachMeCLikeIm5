@@ -26,8 +26,8 @@ jobs:
         pip install cpplint
         
         
-    # run linter on python file
+    # run linter on files
     - name: Run Lint with cpplint!
-      run: cpplint --help
+      run: cpplint --filter=-legal/copyright,-whitespace/line_length,-whitespace/braces --recursive */*
         
     
