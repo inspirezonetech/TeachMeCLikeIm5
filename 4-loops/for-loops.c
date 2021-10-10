@@ -16,7 +16,7 @@ int main()
    {
       printf("Value of i: %d\n", i);
    }
- //loop executes and values of i, from 0 to 9, are printed new lines.
+ //loop executes and values of i, from 0 to 9, are printed on new lines.
    return 0;
 }
 /*
