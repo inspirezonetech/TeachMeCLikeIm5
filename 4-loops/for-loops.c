@@ -10,14 +10,15 @@
 #include <stdio.h>
 
 int main()
-{ int i;
-   // for loop execution 
-   for( i = 0; i < 10; i++ )
-   {
-      printf("Value of i: %d\n", i);
-   }
- //loop executes and values of i, from 0 to 9, are printed on new lines.
-   return 0;
+{
+  int i;
+  // for loop execution
+  for (i = 0; i < 10; i++)
+  {
+    printf("Value of i: %d\n", i);
+  }
+  //loop executes and values of i, from 0 to 9, are printed on new lines.
+  return 0;
 }
 /*
 ------------------------------------------------------------------------------------
