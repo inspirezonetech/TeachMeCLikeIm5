@@ -1,8 +1,8 @@
 /* 
 ------------------------------------------------------------------------------------
  The switch statement is used to perform different actions based on different conditions. The switch expression is evaluated once and this value is compared with the values 
- of each case. If there is a match then the block of code associated with the case is executed else the default code block is executed. Integer values and char variable can
- be used in the check condition. Whan char variable are used, always initialized within ''(single quotes).The break statements are used to terminate a statement sequence. If
+ of each case. If there is a match then the block of code associated with the case is executed else the default code block is executed. Integer and charecter values can be
+ used in the check condition. Whan char variable are used, always initialized within ''(single quotes).The break statements are used to terminate a statement sequence. If
  there are no break statement between cases then the cases following the matched case will get executed until the break statement is executed.
  Syntax:
 
@@ -52,6 +52,6 @@ int main()
 
 /*
 ------------------------------------------------------------------------------------
- Challenge: Make a small calculator using switch statement. A menu can be displayed and user can enter a choice. 
+ Challenge: Make a small calculator using switch statement. A menu can be displayed and user can enter a choice. Try making the choice charecter variables.
 ------------------------------------------------------------------------------------
 */
