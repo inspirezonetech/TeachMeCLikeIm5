@@ -20,10 +20,10 @@ int main()
     while loop will run till condition (a<=5) is true, that is till a=5 loop will be executed,
     so loop will run 5 times.
     */
-    while(a<=5)
+    while (a <= 5)
     {
         // The print function is used to output to the console
-        printf("%d. I know while loop.\n",a);
+        printf("I know while loop \n");
 
         // incrementing a by +1 every time loop runs
         a++;
