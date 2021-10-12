@@ -40,7 +40,7 @@ int main()
         break;
     case 3:
         printf("\nChoice is 3\n");  // Statement or block of code which will be executed if choice = 3
-    case 4:    
+    case 4:   
         printf("\nGets executed as there is no break in case 3\n");
         break;
     default:
