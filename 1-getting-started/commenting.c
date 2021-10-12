@@ -20,7 +20,7 @@ int main()
     I am a multiline comment
     I start with '/*' and ends with '*/'
     */
-    printf ("%d", a);  // We can also put comments onto side of a line like this
+    printf("%d", a);  // We can also put comments onto side of a line like this
     return 0;  /* Even multiline comments can also be placed onto a side of a line */
 }
 /*
