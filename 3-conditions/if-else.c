@@ -12,6 +12,7 @@
   }
 ------------------------------------------------------------------------------------
 */
+#include <stdio.h>
 
 // Example
 int main(){  // this is where the program start excution
