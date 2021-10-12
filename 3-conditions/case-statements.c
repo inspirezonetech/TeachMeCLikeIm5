@@ -2,8 +2,8 @@
 ------------------------------------------------------------------------------------
  The switch statement is used to perform different actions based on different conditions. The switch expression is evaluated once and this value is compared with the values 
  of each case. If there is a match then the block of code associated with the case is executed else the default code block is executed. Integer and charecter values can be
- used in the check condition. Whan char variable are used, always initialized within ''(single quotes).The break statements are used to terminate a statement sequence. If
- there are no break statement between cases then the cases following the matched case will get executed until the break statement is executed.
+ used in the check condition. When char variable are used, always initialize them within ''(single quotes). The break statements are used to terminate a statement sequence. 
+ If there are no break statements between cases then the cases following the matched case will get executed until a break statement gets executed.
  Syntax:
 
 	switch (choice)
