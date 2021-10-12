@@ -18,7 +18,7 @@ int main()
     int a = 5;
     /*
     I am a multiline comment
-    I start with '/*' and ends with '*/'
+    I can occupy any number of lines I need
     */
     printf("%d", a);  // We can also put comments onto side of a line like this
     return 0;  /* Even multiline comments can also be placed onto a side of a line */
