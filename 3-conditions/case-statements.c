@@ -40,11 +40,11 @@ int main()
         break;
     case 3:
         printf("\nChoice is 3\n");  // Statement or block of code which will be executed if choice = 3
-    case 4:   
-        printf("\nGets executed as there is no break in case 3\n");
+    case 4:
+        printf("\nGets executed as there is no break in case 3\n");  // Statement or block of code which will be executed if choice = 4
         break;
     default:
-        printf("\nChoice entered is not on of the options 1, 2, 3, 4\n");  // Statement or block of  code which will be  executed if choice does not match any of the cases
+        printf("\nChoice entered is not on of the options 1, 2, 3, 4\n");  // Statement which will be executed if choice does not match any of the cases
         break;
     }
     return 0;
