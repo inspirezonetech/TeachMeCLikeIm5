@@ -1,15 +1,27 @@
 /* 
 ------------------------------------------------------------------------------------
- Tutorial: brief description of tutorial content
+ Tutorial: A for Loop is used to repeat a specific block of code a known number of times.
+           Syntax: for ( initialize; condition; increment/decrement ) 
+                    {
+                      statement(s) / code;
+                    }
 ------------------------------------------------------------------------------------
 */
+#include <stdio.h>
 
-// Code here explaining concept with comments to guide
 int main()
 {
+  int i;
+  // for loop execution
+  for (i = 0; i < 10; i++)
+  {
+    printf("Value of i: %d\n", i);
+  }
+  // loop executes and values of i, from 0 to 9, are printed on new lines.
+  return 0;
 }
 /*
 ------------------------------------------------------------------------------------
- Challenge: list challenges to be completed here. minimum of one challenge per tutorial
+ Challenge: Use a for loop to add nubers from 1 to 10.
 ------------------------------------------------------------------------------------
 */
