@@ -17,15 +17,15 @@ double is 8 byte.
 #include <stdio.h>
 int main()
 {
-    printf("Size of int data type : %d\n", sizeof(int));
-    printf("Size of char data type : %d\n", sizeof(char));
-    printf("Size of float data type : %d\n", sizeof(float));
-    printf("Size of double data type : %d\n", sizeof(double));
+    printf("Size of int data type : %lu\n", sizeof(int));
+    printf("Size of char data type : %lu\n", sizeof(char));
+    printf("Size of float data type : %lu\n", sizeof(float));
+    printf("Size of double data type : %lu\n", sizeof(double));
 
     // Check output of above code, you will get to know it will print respective sizes of int, char, float and double.
 
     int i = 32;
-    printf("Size of i : %d\n", sizeof(i));  // Also its been demonstrated by making an integer 'i', we can find size of i by using 'sizeof()'.
+    printf("Size of i : %lu\n", sizeof(i));  // Also its been demonstrated by making an integer 'i', we can find size of i by using 'sizeof()'.
 
     return 0;
 }
