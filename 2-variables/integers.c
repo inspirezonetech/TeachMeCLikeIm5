@@ -1,7 +1,7 @@
 /* 
 ------------------------------------------------------------------------------------
- int (integer) is one of the data types in C programming.
- The size of int is at least 2, usually 4.
+ Tutorial: int (integer) is one of the data types in C programming.
+ The size of int is at least 2, usually 4 bytes.
  Integers are whole numbers -> zero, positive and negative values but no decimal values. 
  For example, 0, -3, 11.
 ------------------------------------------------------------------------------------
@@ -19,7 +19,7 @@ int main()
 }
 /*
 ------------------------------------------------------------------------------------
- Read two integer values, in this case for variables A and B. Then calculate a sum 
- between them and assign it to variable SUM. Then write the value of this variable.
+ Challenge: Read two integer values, in this case for variables 'a' and 'b'. Then calculate the sum 
+ between them and assign it to a variable called 'sum'. Then print the value of the 'sum' variable.
 ------------------------------------------------------------------------------------
 */
