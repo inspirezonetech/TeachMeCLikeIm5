@@ -13,7 +13,7 @@ Syntax of struct
     struct structureName
     {
         dataType member1;
-        dataType member1;
+        dataType member2;
         .....
 
     }structureVariable1, structureVariable2 ;
@@ -27,7 +27,7 @@ Syntax of struct
     }
 
 Structure elements can be accessed through a structure variable using a dot (.) operator.
-e.g.: structureName.memeber1= valueAssigned;
+e.g.: structureVariable1.member1= valueAssigned;
  
 ------------------------------------------------------------------------------------
 */
