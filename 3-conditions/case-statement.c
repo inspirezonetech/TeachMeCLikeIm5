@@ -49,6 +49,6 @@ int main()
 }
 /*
 ------------------------------------------------------------------------------------
- Challenge: Make a calculator using switchcase statements.(Try using charecters for the menu options)
+ Challenge: Make a calculator using switch case statements. (Try using charecters for the menu options)
 ------------------------------------------------------------------------------------
 */
