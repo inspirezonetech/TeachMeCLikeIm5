@@ -47,3 +47,8 @@ int main()
     }
     return 0;
 }
+/*
+------------------------------------------------------------------------------------
+ Challenge: Make a calculator using switchcase statements.(Try using charecters for the menu options)
+------------------------------------------------------------------------------------
+*/
