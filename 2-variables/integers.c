@@ -10,13 +10,12 @@
 #include <stdio.h>
 int main()
 {
-   int age; //declaring a variable
+  int age;  // declaring a variable
 
-   age = 27; //assigning value to an integer variable
+  age = 27;  // assigning value to an integer variable
+  printf("My name is Ruan and I'm %d years old.\n", age);
 
-   printf("My name is Ruan and I'm %d years old.\n", age); 
-
-   return 0;
+  return 0;
 }
 /*
 ------------------------------------------------------------------------------------
