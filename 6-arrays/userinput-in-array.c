@@ -1,6 +1,5 @@
 /* 
 ------------------------------------------------------------------------------------
- Tutorial: brief description of tutorial content
  Initializing Directly an array is easy. But in real cases programme works on data that is provided by the user. 
  So, in that case, the programme having an array needs user input. We can do this by using for loop as shown below.
 ------------------------------------------------------------------------------------
@@ -8,25 +7,23 @@
 // Demonstration of Program to take 5 values from the user and store them in an array
 #include <stdio.h>
 
-int main() {
+int main()
+{
   int Array[5];
-
   printf("Enter 5 integers: ");
 
-  // Taking input and storing it in an array
-  for(int i = 0; i < 5; ++i) {
+  for(int i = 0; i < 5; ++i)              // Taking input and storing it in an array
+  {
      scanf("%d", &Array[i]);       
   }
-
   printf("Displaying integers: ");   
 
-  // printing elements of an array
-  for(int i = 0; i < 5; ++i) {
+  for(int i = 0; i < 5; ++i)             // printing elements of an array
+  {
      printf("%d\n", Array[i]);
   }
   return 0;
 }
-
 /*
 ------------------------------------------------------------------------------------
  Challenge for you.
@@ -34,7 +31,7 @@ int main() {
  Then, find average of the elements of an array after taking user-input. 
  
  Refer to the solution below if not able to solve.
- ```c
+ 
  #include <stdio.h>
 
 int main() {
@@ -62,6 +59,5 @@ int main() {
   
   return 0;
 }
- ```
-------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------
 */
