@@ -7,20 +7,19 @@
 // Demonstration of Program to take 5 values from the user and store them in an array
 #include <stdio.h>
 
-int main()
-{
+int main() {
   int Array[5];
   printf("Enter 5 integers: ");
 
-  for(int i = 0; i < 5; ++i)              // Taking input and storing it in an array
+  for (int i = 0; i < 5; ++i) // Taking input and storing it in an array
   {
-     scanf("%d", &Array[i]);       
+    scanf("%d", & Array[i]);
   }
-  printf("Displaying integers: ");   
+  printf("Displaying integers: ");
 
-  for(int i = 0; i < 5; ++i)             // printing elements of an array
+  for (int i = 0; i < 5; ++i) // printing elements of an array
   {
-     printf("%d\n", Array[i]);
+    printf("%d\n", Array[i]);
   }
   return 0;
 }
@@ -33,14 +32,12 @@ int main()
  Refer to the solution below if not able to solve.
  
  #include <stdio.h>
-
 int main() {
  
   int Marks[5];
   int SumofMarks=0;
   
   printf("Enter Marks in all 5 Sujects: ");
-
   // Taking input and storing it in an array
   for(int i = 0; i < 5; ++i) {
      scanf("%d", &Marks[i]);  
