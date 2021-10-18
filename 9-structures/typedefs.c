@@ -10,13 +10,13 @@ Syntax of typedef:
 
 Example:
 
-    typedef unsigned int unit; 
+    typedef unsigned int uint; 
 
-Now we can write ' unit ' instead of writing 'unsigned int 'in our program.
+Now we can write ' uint ' instead of writing 'unsigned int 'in our program.
 
 Create variable of type unsigned int by writing the following statement
 
-    unit a,b; // instead of unsigned int a,b;
+    uint a,b; // instead of unsigned int a,b;
 
 
 NOTE: typedef can be used with structure to define a new data type and then use that data type to define structure variables directly as follow
@@ -54,7 +54,7 @@ int main() {
 
   // assign values to other p1 variables
   p1.citNo = 1984;
-  p1. salary = 2500;
+  p1.salary = 2500;
 
   // print struct variables
   printf("Name: %s\n", p1.name);
