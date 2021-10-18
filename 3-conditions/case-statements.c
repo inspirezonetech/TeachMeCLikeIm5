@@ -16,12 +16,11 @@
  	    .
  	  case n: // Statement or block of code which will be executed if choice = n
  	       break;
-    	  default: // Statement or block of  code which will be  executed if choice does not match any of the cases
+    	  default: // Statement or block of  code which will be executed if choice does not match any of the cases
 	}
 ------------------------------------------------------------------------------------
 */
 
-// Code here explaining concept with comments to guide
 #include <stdio.h>
 int main()
 {
@@ -49,6 +48,6 @@ int main()
 }
 /*
 ------------------------------------------------------------------------------------
- Challenge: Make a calculator using switch case statements. (Try using charecters for the menu options)
+ Challenge: Make a calculator using switch case statements. (Try using characters for the menu options)
 ------------------------------------------------------------------------------------
 */
