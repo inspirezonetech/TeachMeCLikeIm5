@@ -36,3 +36,27 @@ return 0;
  2. Check if a number is a even or odd. Hint: use '%' sign to get the remainder and check.
 ------------------------------------------------------------------------------------
 */
+#include <stdio.h>
+ int main()
+{
+  int n;
+  scanf("%d",&n); // Taking the number input
+  if(n>18)
+  printf("%d is greater than 18",n);
+  else
+  printf("%d is smaller than 18",n);
+  return 0;
+}
+// --------------------------------------------------------------------------------------------- 
+#include <stdio.h>
+int main()
+{
+  int n;
+  scanf("%d",&n); // Taking the number input
+  if(n%2 == 0)
+  printf("%d is even number",n);
+  else 
+  printf("%d is odd number",n);
+  return 0;
+}
+//-----------------------------------------------------------------------------------------------
