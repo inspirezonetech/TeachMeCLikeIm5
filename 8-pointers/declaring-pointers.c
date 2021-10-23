@@ -41,14 +41,16 @@ int main()
     printf("Value of c: %d\n\n", c);
 
     pc = &c;  // assigning value of c's address to pc
-    printf("Address of pointer pc: %p\n", pc);
-    printf("Content of pointer pc: %d\n\n", *pc);  // 22
+    printf("Address of c: %p\n", pc);
+    printf("Content of c: %d\n", *pc);  // 22
+    printf("Address of pc: %p\n", &pc);
+    printf("Content of pc: %p\n\n", pc);  // same as the address of c
 
-    c = 11;
-    printf("Address of pointer pc: %p\n", pc);
-    printf("Content of pointer pc: %d\n\n", *pc);  // 11
+    c = 11;  // assigning new value to c
+    printf("Address of c: %p\n", pc);
+    printf("Content of c: %d\n\n", *pc);  // 11
 
-    *pc = 2;  // *pc is equivalent to the value of c
+    *pc = 2;  // assigning new value to c using it's pointer variable pc
     printf("Address of c: %p\n", &c);
     printf("Value of c: %d\n\n", c);  // 2
     return 0;
