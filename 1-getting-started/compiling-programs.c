@@ -38,8 +38,4 @@ int main()
     return 0;
 }
 
-/* Find out the output of the above written program via the gcc compiler method explained above
-
---------------------------------------------------------------------------------------------------
-
-*/
+// Find out the output of the above written program via the gcc compiler method explained above
