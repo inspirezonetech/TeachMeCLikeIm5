@@ -12,7 +12,14 @@
     1. Open command prompt, by searching for the same in the search bar and type gcc -v and press Enter.
     2. If the command prompt shows you the version for gcc, you are good to go, else you;ll need to install gcc, from their official website.
 
+    Running the program:
+    1. Download any code editing app, like Visual Studio Code or Sublime Text.
+    2. Create a myProgram.c file in the desired location on your PC.
+    3. Use the code editor to write code and compile it using the methods mentioned below.
 
+    Alternatively, you can also download an app like codeblocks which has an inbuilt code editor and compiler, but this tutorial focuses on using the GCC compiler as it is one of the most standard and widely used approach.
+    
+    
     Compiling the program:
     1. Open the command prompt and using the cd command change the directory to the location of your C program.
     Alternatively, you can go to the location of your program and on the Address bar and type cmd. It takes you to the command prompt with the current folder as the working directory.
@@ -31,4 +38,8 @@ int main()
     return 0;
 }
 
-// Find out the output of the above written program via the gcc compiler method explained above.
+/* Find out the output of the above written program via the gcc compiler method explained above
+
+--------------------------------------------------------------------------------------------------
+
+*/
