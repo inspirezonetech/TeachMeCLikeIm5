@@ -6,15 +6,15 @@
 ------------------------------------------------------------------------------------
 */
 
-// Code here explaining concept with comments to guide
-#include<stdio.h>
-#include<string.h>
-int main() {
-  float x = 50.621;
-  int y = 40;
-  printf("The float value : %f\n", x);
-  printf("The sum of float and int variable : %f\n", (x+y));
-  return 0;
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    float x = 50.621;
+    int y = 40;
+    printf("The float value : %f\n", x);
+    printf("The sum of float and int variable : %f\n", (x + y));
+    return 0;
 }
 /*
 ------------------------------------------------------------------------------------
