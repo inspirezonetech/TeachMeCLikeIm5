@@ -12,12 +12,13 @@ We can also use #if defined to do the same task.
 #include <stdio.h>
 #define VALUE 1
 
-int main(void) {
-#ifdef VALUE
-  printf("Value is defined\n");
-#else
-  printf("Value is not defined\n");
-#endif
+int main(void)
+{
+    #ifdef VALUE
+        printf("Value is defined\n");
+    #else
+        printf("Value is not defined\n");
+    #endif
 }
 /*
 ------------------------------------------------------------------------------------
@@ -29,7 +30,7 @@ int main(void) {
  int main()
  {
     #ifdef UNIX
-    printf("UNIX specific function calls go here.\n");
+        printf("UNIX specific function calls go here.\n");
     #endif
 
     printf("TechOnTheNet is over 10 years old.\n");
