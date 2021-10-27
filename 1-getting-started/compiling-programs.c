@@ -33,7 +33,7 @@
     3. The output would be displayed on your screen.
 
     You can also change the name your executable using the following format in command prompt:
-    gcc -o <FileName.c>
+    gcc -o <name of your exe> <name of your file>.c
 
 ------------------------------------------------------------------------------------
 */
