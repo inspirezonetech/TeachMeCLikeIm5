@@ -25,7 +25,15 @@
     Alternatively, you can go to the location of your program and on the Address bar and type cmd. It takes you to the command prompt with the current folder as the working directory.
     2. Type the command: gcc <name of your file>.c
     Eg: gcc palindrome.c
-    3. The output is on your screen now!
+    3. Your program is now compiled.
+
+    Displaying the output:
+    1. Once your program is compiled, an executable file a.out is created.
+    2. To run this file type ./a.out
+    3. The output would be displayed on your screen.
+
+    You can also change the name your executable using the following format in command prompt:
+    gcc -o <FileName.c>
 
 ------------------------------------------------------------------------------------
 */
