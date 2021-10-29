@@ -20,7 +20,7 @@ the same type as required by the formal parameter in the function call.
 */
 
 // Including header file.
-#include<stdio.h> // For using printf()
+#include<stdio.h>  // For using printf()
 
 /**
  * @brief function which will square of its parameters.
@@ -60,13 +60,13 @@ int Sub(int x, int y){
  * @return int 
  */
 int main()
-{   
+{
     // Calling Square() function and printing the result on to the console.
     printf("\nSquare of 3: %d", Square(3));
 
     // Calling Sum() function and printing the result on to the console.
     printf("\nAddition of 30 + 50: %d", Sum(30, 50));
-    
+
     // Calling Sub() function and printing the result on to the console.
     printf("\nDifference of 50 - 30: %d", Sub(50, 30));
 
