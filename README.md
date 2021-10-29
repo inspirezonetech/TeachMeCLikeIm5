@@ -41,3 +41,7 @@ Each file contains:
 | Typedefs                      | [typedefs.c](9-structures/typedefs.c)                         |
 | **Common built-in functions** |
 | Scanf                         | [scanf.c](11-common-built-in-functions/scanf.c)               |
+| **Pointers**                  |                                           
+| Declaring Pointers            | [declaring-pointers.c](8-pointers/declaring-pointers.c)       |
+| **Preprocessors**             |                                           
+| ifdef                         | [ifdef.c](10-preprocessors/ifdef.c)                           |
