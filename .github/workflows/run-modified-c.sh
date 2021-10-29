@@ -19,7 +19,9 @@ echo "run-sh: After parsing, file to execute: $b"
 #check if this is a .c file
 if [[ $b == *".c"* ]]; then
     echo "run-sh: This is a .c file, executing"
-    gcc $b && ./a.out
+
+    #treat warnings as errors in compilmation
+    gcc $b -Werror && ./a.out
 else
     echo "run-sh: File modified is not a C file! Will not execute"
 fi
