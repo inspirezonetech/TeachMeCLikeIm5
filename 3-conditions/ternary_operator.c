@@ -20,7 +20,7 @@
 int main() {
 
     // Defining variables for use
-    int a=10, b=5;
+    int a=10, b=5, c=15;
     
     // Using ternary operator to print a particular result based on a condition
     // the below statement is equivalent to :
@@ -37,6 +37,16 @@ int main() {
     int result = a > b ? a-b : b-a ;
     printf("\nresult : %d ", result);
     //OUTPUT : result : 5 
+ 
+    // Nested Ternary operators
+    // Nested ternary operators mean using a ternary statement as one of the expressions, i.e., one ternary statement inside another.
+ 
+    // Using ternary operator to find largest of three numbers
+    // The below code compares two numbers first then compares the bigger no with the third number to find the largest.
+  
+    a>b? ( a>c? printf("\n%d is largest", a) : printf("\n%d is largest", c) ) 
+        : ( b>c? printf("\n%d is largest", b) : printf("\n%d is largest", c) );
+    // OUTPUT : 15 is largest
     
     return 0;
 }
@@ -46,5 +56,6 @@ int main() {
  Challenge: list challenges to be completed here. minimum of one challenge per tutorial
  1. Check if two numbers are equal or not and print appropriate results.
  2. Check if a single number is a even or odd and print appropriate results. 
+ 3. Use ternary statement to find the smallest number among 3 numbers.
 ------------------------------------------------------------------------------------
 */
