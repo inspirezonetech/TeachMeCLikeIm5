@@ -15,21 +15,21 @@ Examples:
 Difference between using <> and "" is the "" is used to reference a header file that you as the user have created.
 The <> are used to signify that these are pre-existing header files already available in the C compiler.
 */
-// Code here explaining concept with comments to guide
-// This will be using #include <stdio.h> header file so we can use inputs and outputs such as printf() and scanf() which are declared in the header file. 
-// reference the stdio header
+/* Code here explaining concept with comments to guide
+This will be using #include <stdio.h> header file so we can use inputs and outputs such as printf() and scanf() which are declared in the header file. 
+reference the stdio header */
 #include <stdio.h>
 int main() {
 // identifying variable ch which is a character
-	char ch;
+  char ch;
 // printf will print phrase "Enter this character" \n signals to create new line afterwards
-	printf("Enter any character \n");
+  printf("Enter any character \n");
 // scanf will accept input from user. %c is character and stores it in &ch
-	scanf("%c", &ch);
+  scanf("%c", &ch);
 // This line will print the character that was stored by the previous scanf
-	printf("Entered character is %c \n", ch);
+  printf("Entered character is %c \n", ch);
 // Now we will ask for a phrase or sentence up to 100 characters
-    return 0;
+  return 0;
 }
 /*
 ------------------------------------------------------------------------------------
