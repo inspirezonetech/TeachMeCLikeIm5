@@ -21,10 +21,12 @@ Each file contains:
 | **Getting started**           |
 | Your first C program          | [hello-world.c](1-getting-started/hello-world.c)              |
 | Using comments in C code      | [commenting.c](1-getting-started/commenting.c)                |
+| Compiling Programms           | [compiling-programs.c](1-getting-started/compiling-programs.c)|
 | **Variables**                 |
 | Chars                         | [chars.c](2-variables/chars.c)                                |
 | Integers                      | [integers.c](2-variables/integers.c)                          |
 | Size of variables             | [size-of-variables.c](2-variables/size-of-variables.c)        |
+| Floats                        | [floats.c](2-variables/floats.c)                              |
 | **Conditions**                |
 | Case statements               | [case-statements.c](3-conditions/case-statements.c)           |
 | If...else statements          | [if-else.c](3-conditions/if-else.c)                           |
