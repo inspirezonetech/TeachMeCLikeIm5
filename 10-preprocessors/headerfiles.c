@@ -34,21 +34,14 @@ The <> are used to signify that these are pre-existing header files already avai
 
 //This will be using #include <stdio.h> header file so we can use inputs and outputs such as printf() and scanf() which are declared in the header file. 
 
-
-
-
 ///reference the stdio header
 #include <stdio.h>
-
-
-
 
 int main() {
 
    //identifying variable ch which is a character
 	char ch;
 	
-
 	//printf will print phrase "Enter this character" \n signals to create new line afterwards
 	printf("Enter any character \n");
 	//scanf will accept input from user. %c is character and stores it in &ch
@@ -57,7 +50,6 @@ int main() {
 	printf("Entered character is %c \n", ch);
 	//Now we will ask for a phrase or sentence up to 100 characters
 	
-
 	return 0;
 
 }
