@@ -75,6 +75,11 @@ int main()
 }
 /*
 ------------------------------------------------------------------------------------
- Challenge: Write a program for a menu driven console based calculator.
+ Challenge: Write a program to print the table of specific number using function.
+            For example:
+            - If you call a function, printTable(5) then your program will print the 
+              table of 5. And
+            - If you call a function, printTable(7) then your program will print the 
+              table of 7 onto the console.
 ------------------------------------------------------------------------------------
 */
