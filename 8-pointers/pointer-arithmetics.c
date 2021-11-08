@@ -54,29 +54,29 @@ int main()
 
     // Increment and Decrement
 
-    printf("Address of p variable is %d \n", p);
+    printf("Address of p variable is %p \n", p);
     p = p + 1;
-    printf("After increment: Address of p variable is %u \n\n", p);  // p is incremented by s1 bytes
+    printf("After increment: Address of p variable is %p \n\n", p);  // p is incremented by s1 bytes
 
 
-    printf("Address of c variable is %d \n", c);
+    printf("Address of c variable is %p \n", c);
     c = c - 1;
-    printf("After decrement: Address of c variable is %d \n\n", c);  // c is decremented by s2 byte
+    printf("After decrement: Address of c variable is %p \n\n", c);  // c is decremented by s2 byte
 
     // Addition and subtraction
 
-    printf("Address of p variable is %d \n", p);
+    printf("Address of p variable is %p \n", p);
     p = p + 5;  // adding 5 to int pointer variable
-    printf("After adding 5: Address of p variable is %d \n\n", p);  // p is increased by 5*s1 bytes
+    printf("After adding 5: Address of p variable is %p \n\n", p);  // p is increased by 5*s1 bytes
 
-    printf("Address of c variable is %d \n", c);
+    printf("Address of c variable is %p \n", c);
     c = c - 8;  // subtracting 8 from char pointer variable
-    printf("After subtracting 8: Address of c variable is %d \n\n", c);  // c is decremented by 8*s2 bytes
+    printf("After subtracting 8: Address of c variable is %p \n\n", c);  // c is decremented by 8*s2 bytes
 
     // subtracting two pointers
 
-    printf("Address of p variable is %d \n", p);
-    printf("Address of ptr variable is %d \n", ptr);
+    printf("Address of p variable is %p \n", p);
+    printf("Address of ptr variable is %p \n", ptr);
 
     printf("The increment between ptr and p is %ld\n", p-ptr);
 
