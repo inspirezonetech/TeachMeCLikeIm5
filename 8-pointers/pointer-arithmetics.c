@@ -1,7 +1,6 @@
 /* 
 ------------------------------------------------------------------------------------
- Tutorial: This tutorial explains the concept of pointer arithme
- tic in C.
+ Tutorial: This tutorial explains the concept of pointer arithmetic in C.
  The operations that can be performed on pointers are:
 
  1. Increment/Decrement of a Pointer
@@ -31,7 +30,6 @@
 ------------------------------------------------------------------------------------
 */
 
-// Code here explaining concept with comments to guide
 #include <stdio.h>
 
 int main()
