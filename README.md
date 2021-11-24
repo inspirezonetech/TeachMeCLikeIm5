@@ -19,31 +19,31 @@ Each file contains:
 | Tutorial                      | Link                                                          |
 | ----------------------------- | ------------------------------------------------------------- |
 | **Getting started**           |
-| Your first C program          | [hello-world.c](1-getting-started/hello-world.c)              |
-| Using comments in C code      | [commenting.c](1-getting-started/commenting.c)                |
-| Compiling Programms           | [compiling-programs.c](1-getting-started/compiling-programs.c)|
+| Your first C program          | [hello-world.c](01-getting-started/hello-world.c)              |
+| Using comments in C code      | [commenting.c](01-getting-started/commenting.c)                |
+| Compiling Programms           | [compiling-programs.c](01-getting-started/compiling-programs.c)|
 | **Variables**                 |
-| Chars                         | [chars.c](2-variables/chars.c)                                |
-| Integers                      | [integers.c](2-variables/integers.c)                          |
-| Size of variables             | [size-of-variables.c](2-variables/size-of-variables.c)        |
-| Floats                        | [floats.c](2-variables/floats.c)                              |
+| Chars                         | [chars.c](02-variables/chars.c)                                |
+| Integers                      | [integers.c](02-variables/integers.c)                          |
+| Size of variables             | [size-of-variables.c](02-variables/size-of-variables.c)        |
+| Floats                        | [floats.c](02-variables/floats.c)                              |
 | **Conditions**                |
-| Case statements               | [case-statements.c](3-conditions/case-statements.c)           |
-| If...else statements          | [if-else.c](3-conditions/if-else.c)                           |
+| Case statements               | [case-statements.c](03-conditions/case-statements.c)           |
+| If...else statements          | [if-else.c](03-conditions/if-else.c)                           |
 | **Loops**                     |
-| Do...while loops              | [do-while-loops.c](4-loops/do-while-loops.c)                  |
-| For...loops                   | [for-loops.c](4-loops/for-loops.c)                            |
-| While loops                   | [while-loops.c](4-loops/while-loops.c)                        |
+| Do...while loops              | [do-while-loops.c](04-loops/do-while-loops.c)                  |
+| For...loops                   | [for-loops.c](04-loops/for-loops.c)                            |
+| While loops                   | [while-loops.c](04-loops/while-loops.c)                        |
 | **Operators**                 |
-| Arithmetic                    | [arithmetic.c](5-operators/arithmetic.c)                      |
+| Arithmetic                    | [arithmetic.c](05-operators/arithmetic.c)                      |
 | **Arrays**                    |
-| User input in arrays          | [userinput-in-arrays.c](6-arrays/userinput-in-arrays.c)       |
+| User input in arrays          | [userinput-in-arrays.c](06-arrays/userinput-in-arrays.c)       |
 | **Structures**                |
-| Declaring structures          | [declaring-structures.c](9-structures/declaring-structures.c) |
-| Typedefs                      | [typedefs.c](9-structures/typedefs.c)                         |
+| Declaring structures          | [declaring-structures.c](09-structures/declaring-structures.c) |
+| Typedefs                      | [typedefs.c](09-structures/typedefs.c)                         |
 | **Common built-in functions** |
-| Scanf                         | [scanf.c](11-common-built-in-functions/scanf.c)               |
+| Scanf                         | [scanf.c](011-common-built-in-functions/scanf.c)               |
 | **Pointers**                  |                                           
-| Declaring Pointers            | [declaring-pointers.c](8-pointers/declaring-pointers.c)       |
+| Declaring Pointers            | [declaring-pointers.c](08-pointers/declaring-pointers.c)       |
 | **Preprocessors**             |                                           
 | ifdef                         | [ifdef.c](10-preprocessors/ifdef.c)                           |
