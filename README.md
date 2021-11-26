@@ -42,7 +42,7 @@ Each file contains:
 | Declaring structures          | [declaring-structures.c](09-structures/declaring-structures.c) |
 | Typedefs                      | [typedefs.c](09-structures/typedefs.c)                         |
 | **Common built-in functions** |
-| Scanf                         | [scanf.c](011-common-built-in-functions/scanf.c)               |
+| Scanf                         | [scanf.c](11-common-built-in-functions/scanf.c)               |
 | **Pointers**                  |                                           
 | Declaring Pointers            | [declaring-pointers.c](08-pointers/declaring-pointers.c)       |
 | **Preprocessors**             |                                           
