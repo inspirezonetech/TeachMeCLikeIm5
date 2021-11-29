@@ -64,7 +64,25 @@ int main()
 Change the message to "Hello Wonderland."
 
 
-Another more complex challenge is to use the example function and change the numbers. 
+Another challenge:
+Use the example function and change the numbers. 
 
+int addTwoNumbers(int one, int two){
+
+int total = 0;
+
+total = one + two;
+
+this one has a return of the variable total.
+return total;
+
+}
+
+int main(){
+int one = 1;
+int two = 2;
+
+addTwoNumbers();
+}
 
 */
