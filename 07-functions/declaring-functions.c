@@ -45,8 +45,7 @@ int main() {
    
    @ function_name is "max"
    
-   @parameter_list is "int num1" and "int num2"
-   
+   @parameter_list is "int num1" and "int num2" 
 */
 int max(int num1, int num2) {  // Defining the function
   /* local variable declaration */
