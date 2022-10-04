@@ -18,17 +18,15 @@
   declare the function at the top of the file calling the function.
 ------------------------------------------------------------------------------------
 */
-
 // Including Header file
 #include<stdio.h>  // including <stdio.h> to use printf() function
 
 
-int max(int num1, int num2); // function declaration
+int max(int num1, int num2);   // function declaration
 
 /* Above function can also be declared as: int max(int, int);
  because while declaring a function parameter name is not important only their type is required.
 */
-
 int main() {
 
   /* local variable definition */
@@ -55,15 +53,14 @@ int main() {
    @parameter_list is "int num1" and "int num2"
    
 */
-
-int max(int num1, int num2) { // Defining the function
+int max(int num1, int num2) {  // Defining the function
 
   /* local variable declaration */
 
   int result;
 
   if (num1 > num2)
-    result = num1; // comparing both of variables and returnig the result.
+    result = num1;  // comparing both of variables and returnig the result.
   else
     result = num2;
 
