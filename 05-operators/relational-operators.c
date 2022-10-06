@@ -44,7 +44,7 @@ int main() {   // The main function
     printf("%d is greater than or equal to %d\n", a, b);
   // To check whether a is less than or equal to b
   if (a <= b)
-    printf("%d is lesser than or equal to b\n", a, b);
+    printf("%d is lesser than or equal to %d\n", a, b);
   else
     printf("%d is greater than %d\n", a, b);
   // To check whether a is equals to b
