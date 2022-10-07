@@ -45,12 +45,17 @@ int add(int a, int b)
         return a + b;
 }
 
+void f(int x)
+{
+  printf("%d\n", x);
+}
+
 // another function declaration
-void display(int (*p)())
+void display(void (*p)(int))
 {
     for (int i=1; i <= 5; i++)
     {
-        printf("%d\n", p(i, i+1));
+        p(i);
     }
 }
 
@@ -63,14 +68,15 @@ int main()
     a = add;      // Now, 'a' is a pointer pointing to the add()
 
     // We can call the add() function by using the pointer, i.e., 'a'.
-    print(a(2, 3));  // prints add(2,3) = 5.0
+    printf("%d", a(2, 3));  // prints add(2,3) = 5.0
 
 
     // How we can pass a function pointer as parameter
 
-    void (*p)(int, int);     // void function pointer declaration
+    void (*p)(int);     // void function pointer declaration
+    p = f;
     printf("The values are :");
-    display(p);  // prints 3, 5, 7, 9, 11, 13 each in a new line
+    display(p);  // prints 1, 2, 3, 4, 5 each in a new line
     return 0;
 }
 
