@@ -35,28 +35,25 @@ Note: Arrays and strings are second-class citizens in C; they do not support the
 ------------------------------------------------------------------------------------
 */
 
-// Code here explaining concept with comments to guide
-
 #include<string.h>  // Header file that includes Strlen function to find length of string
 #include<stdio.h>
 
 int main()
 {
-    int len1, len2, len_2, len3, len4;  // Intializing lengths to check the length of string
+    int len1, len2, len3;  // Intializing lengths to check the length of string
 
     char str1[]="Code";  // Initializing string using Method I
-    printf("%s\n", str1);
     len1 = strlen(str1);
-
-    printf("Length of %s is %d", str1, len1);  // Lenth would be 4
+    printf("\n Length of %s is %d", str1, len1);  // Lenth would be 4
 
     char str2[5]="Code";  // Intializing string using Method II
-    char str_2[4]="Code";
-    printf("%s\t%s\n", str2, str_2);
     len2 = strlen(str2);
-    len_2 = strlen(str_2);  // This might give incorrect value of length as the array size is less than (actual length + 1) of the string
+    printf("\n Length of %s is %d", str2, len2);
 
-    printf("Length of %s is %d", str2, len2);
+    char str3[4]="Code";
+    len3 = strlen(str3);  // This might give incorrect value of length as the array size is less than (actual length + 1) of the string
+    printf("\n Length of %s is %d", str3, len3);
+
 }
 /*
 ------------------------------------------------------------------------------------
