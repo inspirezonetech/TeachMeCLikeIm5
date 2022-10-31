@@ -53,7 +53,6 @@ int main()
     char str3[4]="Code";
     len3 = strlen(str3);  // This might give incorrect value of length as the array size is less than (actual length + 1) of the string
     printf("\n Length of %s is %d", str3, len3);
-
 }
 /*
 ------------------------------------------------------------------------------------
