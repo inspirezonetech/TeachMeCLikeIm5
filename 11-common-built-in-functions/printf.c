@@ -16,7 +16,6 @@
                     // the stdio.h header file if we want to utilise printf().
 
 int main() {  // The main function
-
   // print whole string using double quotation marks ("").
   printf("Hello World \n");  // \n is used for line break
 
